@@ -21,10 +21,6 @@
 .btn {
     align-items: center;
     justify-content: center;
-    padding: 0.75rem 1.75rem;
-    font-family: var(--font-body);
-    font-weight: 600;
-    font-size: 0.95rem;
     cursor: pointer;
 }
 
@@ -45,7 +41,7 @@
 }
 
 
-nav img {
+#logo {
 }
 
 .navMenu {
@@ -88,10 +84,64 @@ nav button {
 
 
 
+/* --- Hero Section --- */
+
 
 
 .hero {
-    background-image: url('./assets/banner.jpg');
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('./assets/banner.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 786px;
+}
+
+
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:278px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    font-family: var(--arimo);
+
+    margin-top: 136px;
+}
+
+.heroTitle {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.heroSubtitle {
+    height: 108px;
+    width: 829px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+#hero-register-btn {
+    margin-top: 20px;
+    background-color: var(--colour-button-blue);
+    color: var(--color-white);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-family: var(--inter);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+
 }
