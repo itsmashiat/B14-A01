@@ -2,9 +2,13 @@
 :root {
   /* Colors */
   --color-white: #ffffff;
+  --color-black: #000000;
   --color-off: #575757;
-  --colour-button-blue: #1e52f0;
-  --colour-blue: #2563eb;
+  --color-fade: #888888;
+  --color-button-blue: #1e52f0;
+  --color-blue: #2563eb;
+  --color-lBlue: #93C5FD;
+
 
   /* typography */
   --inter: "Inter", sans-serif;
@@ -62,7 +66,7 @@ nav button {
 
   gap: 12px;
   padding: 12px;
-  background-color: var(--colour-button-blue);
+  background-color: var(--color-button-blue);
   color: var(--color-white);
   border: none;
   border-radius: 10px;
@@ -119,7 +123,7 @@ nav button {
 
 #hero-register-btn {
   margin-top: 20px;
-  background-color: var(--colour-button-blue);
+  background-color: var(--color-button-blue);
   color: var(--color-white);
   border: none;
   border-radius: 10px;
@@ -183,7 +187,7 @@ nav button {
 }
 
 .speakerTag {
-  color: var(--colour-blue);
+  color: var(--color-blue);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -202,4 +206,157 @@ nav button {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+}
+
+
+/* --- Secure Your Spot (Pricing) Section --- */
+#pricingSection {
+  background-color: var(--color-light-bg);
+  margin: 0px 55.5px 50px 55.5px;
+  padding: 0px 60px 80px 60px;
+
+  font-family: var(--inter);
+
+}
+
+.pricingHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+
+.pricingHeader h2 {
+  font-size: 48px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.pricingHeader p {
+  color: var(--color-off);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+
+
+.pricingGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.pricingCard {
+  background-color: var(--color-white);
+  border: 1px solid rgba(229, 231, 235, 1);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+}
+
+
+
+.pricingPlan {
+  color: var(--color-fade);
+  font-size:13px;
+  font-weight:600;
+
+}
+
+.pricingPrice {
+  font-size: 44px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 44px;
+  
+  padding-top: 8px;
+}
+
+.pricingPriceSub {
+  color: var(--color-fade);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+
+  padding-top: 4px;
+}
+
+.hrLine {
+  border: 1px solid rgba(229, 231, 235, 1);;
+}
+
+.hrLine.pro {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.pricingFeatures {
+  list-style: none;
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  flex-grow: 1;
+}
+
+.pricingFeatureItem {
+  display: flex;
+  align-items: flex-start;
+  font-size: 0.95rem;
+  color: #333333;
+}
+
+.pricingCard.pro {
+background: rgba(13, 27, 42, 1);
+  border-color: var(--color-primary-blue);
+  color: var(--color-white);
+}
+
+.pricingCard.pro .pricingPlan {
+  color: #93C5FD;
+}
+
+.pricingCard.pro {
+  color: var(--color-white);
+}
+
+
+.pricingCard.pro {
+  color: #cbd5e1;
+}
+
+
+.pricingBtn {
+  padding: 11px 0px 11px 0px;
+  width: 100%;
+  background-color: var(--color-white);
+
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  border-radius: 8px;
+}
+
+.pricingBtn.standard {
+  border: 1px solid var(--color-blue);
+}
+
+.pricingBtn.pro {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.pricingBtn.team {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
 }
