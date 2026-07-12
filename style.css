@@ -301,7 +301,6 @@ nav button {
 
 .pricingFeatures {
   list-style: none;
-  margin-bottom: 56px;
   display: flex;
   flex-direction: column;
   gap: 10px;
