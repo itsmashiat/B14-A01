@@ -7,8 +7,7 @@
   --color-fade: #888888;
   --color-button-blue: #1e52f0;
   --color-blue: #2563eb;
-  --color-lBlue: #93C5FD;
-
+  --color-lBlue: #93c5fd;
 
   /* typography */
   --inter: "Inter", sans-serif;
@@ -208,7 +207,6 @@ nav button {
   line-height: 21px;
 }
 
-
 /* --- Secure Your Spot (Pricing) Section --- */
 #pricingSection {
   background-color: var(--color-light-bg);
@@ -216,7 +214,6 @@ nav button {
   padding: 0px 60px 80px 60px;
 
   font-family: var(--inter);
-
 }
 
 .pricingHeader {
@@ -226,7 +223,6 @@ nav button {
   justify-content: center;
   gap: 8px;
 }
-
 
 .pricingHeader h2 {
   font-size: 48px;
@@ -242,8 +238,6 @@ nav button {
   line-height: 24px;
   margin-top: 12px;
 }
-
-
 
 .pricingGrid {
   display: grid;
@@ -262,13 +256,10 @@ nav button {
   border-radius: 12px;
 }
 
-
-
 .pricingPlan {
   color: var(--color-fade);
   font-size: 13px;
   font-weight: 600;
-
 }
 
 .pricingPrice {
@@ -296,7 +287,6 @@ nav button {
 .hrLine.pro {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 
 .pricingFeatures {
   list-style: none;
@@ -337,18 +327,16 @@ nav button {
 }
 
 .pricingCard.pro .pricingPlan {
-  color: #93C5FD;
+  color: #93c5fd;
 }
 
 .pricingCard.pro {
   color: var(--color-white);
 }
 
-
 .pricingCard.pro {
   color: #cbd5e1;
 }
-
 
 .pricingBtn {
   padding: 11px 0px 11px 0px;
@@ -377,14 +365,9 @@ nav button {
   border: 1px solid var(--color-black);
 }
 
-
 /* --- AI Challenge: Hackathon Section Specifics --- */
 
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 /* --- Reset & Global styles needed for this section --- */
 .hackathon-section *,
@@ -396,21 +379,21 @@ nav button {
 }
 
 .hackathon-section {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 .hackathon-section h2,
 .hackathon-section h3 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #0f172a;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 .hackathon-section p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #475569;
 }
 
@@ -458,7 +441,7 @@ nav button {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1.75rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 0.95rem;
   border-radius: 8px;
@@ -477,7 +460,6 @@ nav button {
   background-color: #1540c4;
 }
 
-
 .hackathon-section {
   background-color: #ffffff;
 }
@@ -495,13 +477,17 @@ nav button {
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -2px rgba(0, 0, 0, 0.05);
   transition: all 0.2s ease-in-out;
 }
 
 .hackathon-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
   border-color: #1e52f0;
 }
 
@@ -546,15 +532,14 @@ nav button {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer {
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
   color: #94a3b8;
   padding: 30px 115.5px 30px 115.5px;
 }
-
 
 .footerTop {
   display: flex;
