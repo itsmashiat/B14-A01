@@ -520,3 +520,55 @@ background: rgba(13, 27, 42, 1);
 .hackathon-cta {
   text-align: center;
 }
+
+/* --- Footer section --- */
+
+.footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer {
+  background-color: #0D1B2A;
+  color: #94a3b8;
+  padding: 30px 115.5px 30px 115.5px;
+}
+
+
+.footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerSocials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialLink {
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  text-decoration: none;
+}
+
+.footerDivider {
+  border: 0;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+.copyright {
+  font-size: 12px;
+  color: #64748b;
+  text-align: center;
+}
