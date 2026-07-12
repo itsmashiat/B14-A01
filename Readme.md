@@ -1,3 +1,7 @@
+GitHub Repository Link - https://github.com/itsmashiat/B14-A01
+Live Website Link (GitHub Pages) - https://itsmashiat.github.io/B14-A01/
+
+
 ## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
 
 ---
