@@ -315,6 +315,23 @@ nav button {
   color: #333333;
 }
 
+.pricingFeatureItem::before {
+  content: "•";
+  color: #2563eb;
+  font-size: 1.4rem;
+  line-height: 0.8;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.pricingCard.pro .pricingFeatureItem {
+  color: #cbd5e1;
+}
+
+.pricingCard.pro .pricingFeatureItem::before {
+  color: #93c5fd;
+}
+
 .pricingCard.pro {
 background: rgba(13, 27, 42, 1);
   border-color: var(--color-primary-blue);
@@ -360,6 +377,10 @@ background: rgba(13, 27, 42, 1);
   background-color: var(--color-white);
   border: 1px solid var(--color-black);
 }
+
+
+/* --- AI Challenge: Hackathon Section Specifics --- */
+
 
 
 
@@ -457,7 +478,7 @@ background: rgba(13, 27, 42, 1);
   background-color: #1540c4;
 }
 
-/* --- AI Challenge: Hackathon Section Specifics --- */
+
 .hackathon-section {
   background-color: #ffffff;
   border-top: 1px solid #e2e8f0;
@@ -567,8 +588,29 @@ background: rgba(13, 27, 42, 1);
 }
 
 
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .copyright {
   font-size: 12px;
   color: #64748b;
-  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.footerLink {
+  font-size: 12px;
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footerLink:hover {
+  color: #cbd5e1;
 }
